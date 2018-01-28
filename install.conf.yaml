@@ -15,3 +15,5 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [./bin/install_atom_packages.sh]
+
