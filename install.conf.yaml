@@ -8,6 +8,10 @@
     ~/.dotfiles: ''
     ~/.vim: vim
     ~/.vimrc: vimrc
+    ~/.atom/config.cson: atom/config.cson
+    ~/.atom/keymap.cson: atom/keymap.cson
+    ~/.atom/snippets.cson: atom/snippets.cson
+    ~/.atom/styles.less: atom/styles.less
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

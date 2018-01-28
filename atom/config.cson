@@ -1,0 +1,24 @@
+"*":
+  "clang-format":
+    fallbackStyle: "google"
+    formatCPlusPlusOnSave: true
+  core:
+    disabledPackages: [
+      "exception-reporting"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontSize: 12
+    tabType: "soft"
+  jekyll:
+    buildCommand: [
+      "bundle"
+      "exec"
+      "jekyll"
+      "build"
+    ]
+  "linter-ui-default":
+    panelRepresents: "Entire Project"
+    showPanel: true
+  welcome:
+    showOnStartup: false
