@@ -1,4 +1,8 @@
 "*":
+  "autocomplete-python":
+    useKite: false
+  "build-cmake":
+    buildDirectory: "$PROJECT_DIR/build"
   "clang-format":
     fallbackStyle: "google"
     formatCPlusPlusOnSave: true
@@ -7,6 +11,10 @@
       "exception-reporting"
     ]
     telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
   editor:
     fontSize: 12
     tabType: "soft"
@@ -20,5 +28,7 @@
   "linter-ui-default":
     panelRepresents: "Entire Project"
     showPanel: true
+  "seti-ui":
+    compactView: true
   welcome:
     showOnStartup: false
