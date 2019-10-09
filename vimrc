@@ -50,6 +50,8 @@ Plug 'terryma/vim-multiple-cursors'
 " vue component support
 Plug 'leafOfTree/vim-vue-plugin'
 
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 " elementary default settings
