@@ -12,12 +12,14 @@
 
 - cask:
   - font-hack-nerd-font
+  - hyper
 
 - link:
     ~/.dotfiles: ''
     ~/.vim: vim
     ~/.vimrc: vimrc
     ~/.bash_profile: bash_profile
+    ~/.hyper.js: hyper.js
     ~/.atom/config.cson: atom/config.cson
     ~/.atom/keymap.cson: atom/keymap.cson
     ~/.atom/snippets.cson: atom/snippets.cson
