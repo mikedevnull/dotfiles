@@ -4,6 +4,15 @@
 
 - clean: ['~']
 
+- tap:
+  - homebrew/cask-fonts
+
+- brew:
+  - ctags
+
+- cask:
+  - font-hack-nerd-font
+
 - link:
     ~/.dotfiles: ''
     ~/.vim: vim
