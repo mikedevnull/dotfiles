@@ -84,6 +84,9 @@ let g:ale_virtualenv_dir_names = ['.direnv/python-*', '.env', '.venv', 'env', 'v
 " vim vue: do not fold component code on load
 let g:vim_vue_plugin_use_foldexpr = 0
 
+" start ctrlp in buffer mode by default
+let g:ctrlp_cmd = 'CtrlPBuffer'
+
 " Keymappings
 nmap <F8> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
