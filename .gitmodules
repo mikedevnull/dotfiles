@@ -4,3 +4,6 @@
 [submodule "dotbot-atom"]
   path = dotbot-atom
   url = https://github.com/mikedevnull/dotbot-atom.git
+[submodule "dotbot-brew"]
+	path = dotbot-brew
+	url = https://github.com/d12frosted/dotbot-brew.git
